@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="us.zhicheng.administrator.mymap.gaode.ShopDetalActivity">
+
+    <ImageView
+        android:id="@+id/shop_icon"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@mipmap/buba_logo"/>
+    <TextView
+        android:drawableLeft="@drawable/restaurant"
+        android:id="@+id/tv_location"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textColor="#f00"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:onClick="click"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:text="这里是XXXXXX店,\n欢迎新老顾客到店来\n,谢谢惠顾!\n这里是XXXXXX店,欢迎新\n老顾客到店来,谢谢惠顾!\n这里是XXXXXX店,欢迎新老顾客\n到店来,谢谢惠顾!"/>
+</LinearLayout>
